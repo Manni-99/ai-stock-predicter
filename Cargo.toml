@@ -1,0 +1,10 @@
+[package]
+name = "stock_market_analysis"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "stock_market_analysis"
+path = "main.rs"
