@@ -1,0 +1,14 @@
+{
+    "files.readonlyInclude": {
+    "**/.cargo/registry/src/**/*.rs": true,
+    "**/.cargo/git/checkouts/**/*.rs": true,
+    "**/lib/rustlib/src/rust/library/**/*.rs": true
+},
+
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+    "rust-analyzer.procMacro.enable": true,
+    "editor.formatOnSave": true,
+    "rust-analyzer.rustfmt.enableRangeFormatting": true
+    
+}
