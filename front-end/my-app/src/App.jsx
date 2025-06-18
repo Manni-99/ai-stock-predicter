@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
+import { SearchBar } from './components/SearchBar';
 import "./App.css"
+
+
 function App() {
   useEffect(() => {
     fetch("/api/data")
@@ -11,7 +14,7 @@ function App() {
   return ( 
     <div className="App">
       <div className="search-bar-container">
-        <div>SearchBar</div>
+          <SearchBar />
           <div>SearchResults</div>
       </div>
    </div>
